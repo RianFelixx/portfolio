@@ -20,16 +20,37 @@ body{
     background-color: #512679;
 }
 
-.title{
+.sidebar-lat{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.img-main{
     text-align: center;
 }
 
-.img{
-    text-align: center;
+.img-main img{
+    width: 80%;
+    border: 8px solid #62318e;
     border-radius: 50%;
 }
 
-.img img{
-    width: 400px;
-    border-radius: 50%;
+.menu {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    opacity: 0.4;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.menu a.selected {
+    opacity: 1;
+
 }
