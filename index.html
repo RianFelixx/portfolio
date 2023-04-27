@@ -1,51 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <title>Portfólio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
+  <title>Portfolio</title>
 </head>
+
 <body>
-    <div class="container">
+  <div class="parent">
 
-        <div class="sidebar">
+    <div class="sidebar">
 
-            <div class="sidebar-lat">
-                <div class="img-main">
-                    <img src="./img/rian.jpg" alt="foto do rian">
-                </div>
-
-                <div class="menu">
-                    <a class="selected" href="#">Sobre</a>
-                    <a href="#">Experiência</a>
-                    <a href="#">Projetos</a>
-                    <a href="#">Premiações</a>
-                    <a href="#">Educação</a>
-                </div>
-
-            </div>
-
+      <div class="sidebar-pos">
+        <div class="img-sidebar">
+          <img src="./img/rian.jpg" />
         </div>
+        <!--img-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-        
+        <div class="menu">
+            <a class="selected" href="#">Sobre</a>
+            <a href="#">Experiência</a>
+            <a href="#">Habilidades</a>
+            <a href="#">Projetos</a>
+            <a href="#">Formação</a>
+        </div>
+        <!--menu-->
+      </div>
+      <!--sidebar-pos-->
 
     </div>
+    <!--sidebar-->
+
+    <div class="content">
+
+      <section class="descricao">
+        <h2>Rian <span>Oliveira</span></h2>
+        <h3> Desenvolvedor Full Stack · JavaScript | React js | Node js <span>(81) 98756-5639 · RFO@ETEPD.COM</span></h3>
+        <p>Olá, me chamo Rian e tenho 20 anos. Sou formado em Ánalise e Desenvolvimento de Sistemas, pela <a href="https://www.instagram.com/eteportodigital/" target="_blank">E.T.E Porto Digital</a>, possuo uma certificação em Desenvolvimento Full Stack pela <a href="https://recodepro.org.br/" target="_blank">Recode Pro</a> e atualmente sou estudante de Desenvolvimento Web na <a href="https://www.betrybe.com/" target="_blank">Trybe</a>. Busco a minha primeira vaga como Desenvolvedor Full Stack, Front-end e/ou Back-end.</p>
+
+        <div class="icons-social">
+          <a style="background-color: blue;" href="https://www.linkedin.com/in/rian-felix/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a style="background: linear-gradient(135deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+          " href="https://www.instagram.com/felix_riann/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a style="background-color: red;" href="https://www.youtube.com/channel/UCilCb7vljx_TU8qD8g1tsMg/videos" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a style="background-color: black;" href="https://github.com/RianFelixx"><i class="fab fa-github" target="_blank"></i></a>
+        </div>
+        <!--icons-social-->
+
+      </section>
+
+    </div>
+    <!--content-->
+
+  </div>
+  <!--parent-->
+
 </body>
+
 </html>
